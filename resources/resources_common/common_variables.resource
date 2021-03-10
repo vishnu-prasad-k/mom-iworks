@@ -14,20 +14,20 @@ ${SELENIUM_TIMEOUT}    3 minutes
 ${IS_PREV_TEST_CRIT}          ${true}
 ${PREV_CRIT_TEST_STATUS}      ${empty}
 ${NON_CRIT}          non_critical_test
-${APPIAN_SERVER}    https://cognizant-82015.appiancloud.com/suite/
+${APPIAN_SERVER}    https://srv1.ctsppiancoe.com/suite/portal/login.jsp
 ${FILE_PATH}    upload
 
 # Employee Creds
 ${USERNAME_EMPLOYEE}    iw_employee1
-${PASSWORD_EMPLOYEE}    Appian@123
+${PASSWORD_EMPLOYEE}    Appian@1234
 
 # Employer Creds
 ${USERNAME_EMPLOYER}    iw_employer1
-${PASSWORD_EMPLOYER}    Appian@123
+${PASSWORD_EMPLOYER}    Appian@1234
 
 # Mediator Creds
-${USERNAME_MEDIATOR}    iw_mediator
-${PASSWORD_MEDIATOR}    Appian123
+${USERNAME_MEDIATOR}    iw_mediator1
+${PASSWORD_MEDIATOR}    Appian@1234
 
 *** Keywords ***
 Initialise Global Valid File List

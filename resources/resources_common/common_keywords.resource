@@ -14,6 +14,7 @@ Open iWorks Application
     Go To    ${APPIAN_SERVER}
     Run Keyword And Ignore Error    Alert Should Not Be Present
     Wait Until Element Is Visible    id=un    30s
+    Log To Console    Application opened: ${APPIAN_SERVER}
 
 
 Login To iWorks Application
